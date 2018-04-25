@@ -16,3 +16,5 @@ set foldmethod=indent
 " jk is escape
 inoremap jk <esc>
 
+let g:slime_target = "tmux"
+let g:slime_python_ipython = 1
