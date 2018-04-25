@@ -1,3 +1,6 @@
+let mapleader = ','
+set nocompatible
+filetype plugin on
 syntax enable
 set background=light
 colorscheme solarized
@@ -12,6 +15,9 @@ set cursorline
 filetype indent on
 set foldenable
 set foldmethod=indent
+
+nnoremap ; :
+nnoremap : ;
 
 " jk is escape
 inoremap jk <esc>
