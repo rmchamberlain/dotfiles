@@ -15,6 +15,7 @@ set cursorline
 filetype indent on
 set foldenable
 set foldmethod=indent
+set nowrap
 
 nnoremap ; :
 nnoremap : ;
