@@ -2,3 +2,4 @@ backend: WebAgg
 webagg.port : 8988
 webagg.address : 0.0.0.0
 webagg.open_in_browser : False
+text.usetex : True
