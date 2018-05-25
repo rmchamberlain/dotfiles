@@ -16,6 +16,7 @@ filetype indent on
 set foldenable
 set foldmethod=indent
 set nowrap
+set scrolloff=5
 
 nnoremap ; :
 nnoremap : ;
