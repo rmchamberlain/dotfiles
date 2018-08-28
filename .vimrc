@@ -26,3 +26,14 @@ inoremap jk <esc>
 
 let g:slime_target = "tmux"
 let g:slime_python_ipython = 1
+
+execute pathogen#infect()
+
+" Syntastic options
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
