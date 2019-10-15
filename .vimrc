@@ -2,7 +2,7 @@ let mapleader = ','
 set nocompatible
 filetype plugin on
 syntax enable
-set background=light
+set background=dark
 colorscheme solarized
 set number
 set ts=4
