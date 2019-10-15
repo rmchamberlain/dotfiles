@@ -2,8 +2,8 @@ let mapleader = ','
 set nocompatible
 filetype plugin on
 syntax enable
-set background=light
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 set number
 set ts=4
 set autoindent
