@@ -32,6 +32,8 @@ nnoremap z5 :set foldlevel=5<cr>
 set visualbell                  " don't beep
 set noerrorbells                " don't beep
 
+set relativenumber
+
 nnoremap ; :
 nnoremap : ;
 
