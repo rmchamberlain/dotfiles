@@ -17,6 +17,9 @@ set foldenable
 set foldmethod=indent
 set nowrap
 set scrolloff=5
+set foldlevelstart=99           " start out with everything unfolded
+set foldopen=block,hor,insert,jump,mark,percent,quickfix,search,tag,undo
+                                " which commands trigger auto-unfold
 
 nnoremap ; :
 nnoremap : ;
