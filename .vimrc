@@ -10,6 +10,8 @@ set autoindent
 set expandtab
 set shiftwidth=4
 set showmatch
+set ignorecase
+set smartcase
 let python_highlight_all=1
 set cursorline
 filetype indent on
@@ -33,6 +35,7 @@ set visualbell                  " don't beep
 set noerrorbells                " don't beep
 
 set relativenumber
+set undofile
 
 nnoremap ; :
 nnoremap : ;
